@@ -1,3 +1,8 @@
 import * as React from "react";
+import { Form, Props } from "./Form";
 
-export const App = () => <div>Hello World</div>;
+const handleSubmit: Props["onSubmit"] = state => {
+  console.log(state);
+};
+
+export const App = () => <Form onSubmit={handleSubmit} />;
