@@ -1,5 +1,4 @@
 import * as React from "react";
-import { wait } from "../utils/wait";
 
 type FormEvent = React.FormEvent<
   HTMLInputElement | HTMLSelectElement | HTMLFormElement
